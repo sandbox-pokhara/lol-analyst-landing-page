@@ -1,0 +1,85 @@
+[data-theme="dark"] {
+  /*  colors */
+  --title: #0b0c0f;
+  --surface: #0f1115;
+  --surface-hover: #000000;
+  --background: #15181e;
+  --outline: #38465b;
+  --muted: #3f474d;
+  --gray: #8fa3b0;
+  --text-primary: #ffffff;
+  --primary: #70a7ff;
+  --victory: #50fa7b;
+  --defeat: #ff5b5b;
+  --online: #3fff20;
+  --online-translucent: #3fff20cc;
+  --offline: #ff3131;
+  --offline-translucent: #ff3131cc;
+  --close: #e9102b;
+
+  /* fonts */
+  --font-family: "Inter", sans-serif;
+  --body: bold normal 15px/18px var(--font-family);
+  --heading: bold normal 24px/29px var(--font-family);
+  --body-small: bold normal 12px/15px var(--font-family);
+  --heading-small: bold normal 18px/22px var(--font-family);
+
+  /* components */
+  --nav-item-underline: -3px;
+}
+
+.background {
+  color: var(--background);
+}
+
+.surface {
+  color: var(--surface);
+}
+
+.surface-hover {
+  color: var(--surface-hover);
+}
+
+.outline {
+  color: var(--outline);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.victory {
+  color: var(--victory);
+}
+
+.defeat {
+  color: var(--defeat);
+}
+
+.online {
+  color: var(--online);
+}
+
+.online-translucent {
+  color: var(--online-translucent);
+}
+
+.offline {
+  color: var(--offline);
+}
+
+.offline-translucent {
+  color: var(--offline-translucent);
+}

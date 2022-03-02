@@ -1,0 +1,21 @@
+.body {
+  font: var(--body);
+}
+
+.heading {
+  font: var(--heading);
+}
+
+.heading-small {
+  font: var(--heading-small);
+}
+
+.body-small {
+  font: var(--body-small);
+}
+
+.legal-boilerplate {
+  font: var(--legal-boilerplate);
+  text-align: center;
+  width: 626px;
+}
