@@ -20,6 +20,8 @@
   /* fonts */
   --font-family: "Inter", sans-serif;
   --body: bold normal 15px/18px var(--font-family);
+  --title: bold normal 4rem/4.1rem var(--font-family);
+  --subtitle: bold normal 2rem/2.1rem var(--font-family);
   --heading: bold normal 24px/29px var(--font-family);
   --body-small: bold normal 12px/15px var(--font-family);
   --heading-small: bold normal 18px/22px var(--font-family);

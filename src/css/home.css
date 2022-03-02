@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 10em 0;
+  width: 100%;
+}
+
+.header-title {
+  font: var(--title);
+  width: 100%;
+}
+
+.header-subtitle {
+  font: var(--subtitle);
+  text-align: center;
+  color: var(--gray);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-item {
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.feature-item > :not(:last-child) {
+  margin-right: 2em;
+}
+
+.feature-header {
+  flex: 30%;
+}
+
+.feature-title {
+  margin-bottom: 1em;
+  font: var(--heading);
+}
+
+.feature-subtitle {
+  font: var(--heading-small);
+  color: var(--gray);
+}
+
+.feature-image {
+  width: 900px;
+  flex: 70%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

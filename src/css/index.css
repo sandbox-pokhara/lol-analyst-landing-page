@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;500&display=swap");
 @import url(themes.css);
 @import url(typography.css);
+@import url(home.css);
 
 body {
   margin: 0;
