@@ -2,6 +2,14 @@
   font: var(--body);
 }
 
+.main-heading {
+  font: var(--main-heading);
+}
+
+.main-subheading {
+  font: var(--main-subheading);
+}
+
 .heading {
   font: var(--heading);
 }
