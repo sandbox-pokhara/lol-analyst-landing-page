@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lol-analyst-webapp/static/css/main.a52ffc11.css",
-    "main.js": "/lol-analyst-webapp/static/js/main.0a6e0726.js",
+    "main.js": "/lol-analyst-webapp/static/js/main.08d2d75d.js",
     "static/js/787.26293a2c.chunk.js": "/lol-analyst-webapp/static/js/787.26293a2c.chunk.js",
     "index.html": "/lol-analyst-webapp/index.html",
     "main.a52ffc11.css.map": "/lol-analyst-webapp/static/css/main.a52ffc11.css.map",
-    "main.0a6e0726.js.map": "/lol-analyst-webapp/static/js/main.0a6e0726.js.map",
+    "main.08d2d75d.js.map": "/lol-analyst-webapp/static/js/main.08d2d75d.js.map",
     "787.26293a2c.chunk.js.map": "/lol-analyst-webapp/static/js/787.26293a2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a52ffc11.css",
-    "static/js/main.0a6e0726.js"
+    "static/js/main.08d2d75d.js"
   ]
 }
