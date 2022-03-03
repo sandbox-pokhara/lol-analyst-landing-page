@@ -1,0 +1,20 @@
+{
+  "dark": {
+    "title": "#0b0c0f",
+    "surface": "#0f1115",
+    "surface-hover": "#000000",
+    "background": "#15181e",
+    "outline": "#38465b",
+    "muted": "#3f474d",
+    "gray": "#8fa3b0",
+    "text-primary": "#ffffff",
+    "primary": "#70a7ff",
+    "victory": "#50fa7b",
+    "defeat": "#ff5b5b",
+    "online": "#3fff20",
+    "online-translucent": "#3fff20cc",
+    "offline": "#ff3131",
+    "offline-translucent": "#ff3131cc",
+    "close": "#e9102b"
+  }
+}

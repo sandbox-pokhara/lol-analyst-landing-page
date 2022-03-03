@@ -30,12 +30,21 @@
   padding: 1em;
 }
 
-.navbar-item.link :hover {
+.navbar-item > :not(:last-child) {
+  margin-right: 0.3em;
+}
+
+.navbar-item :hover {
   cursor: pointer;
 }
 
 .navbar-item.small {
   font: var(--heading-small);
+}
+
+.logo {
+  height: 64px;
+  width: auto;
 }
 
 .discord-logo {
