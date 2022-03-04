@@ -25,6 +25,7 @@ body {
   width: 1080px;
   max-width: 1080px;
   height: 100vh;
+  padding: 0 16px 0 16px;
 }
 
 .page-contents {

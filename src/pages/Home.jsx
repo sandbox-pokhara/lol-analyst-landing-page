@@ -34,7 +34,7 @@ export default function Home() {
             <img src={process.env.PUBLIC_URL + "/discord.svg"} className="discord-logo" alt="" />
           </a>
           <div className="help-discord-text">
-            {"Help us improve the app by your valuable feedbacks on our "}
+            {"Help us improve the app by your valuable feedback on our "}
             <a href={env.discordLink} target="_blank" rel="noreferrer">
               discord.
             </a>
