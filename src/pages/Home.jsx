@@ -28,11 +28,11 @@ const getFeatureItemStyle = (index) => {
 
 const getFeatureImageStyle = (image, theme, index) => {
   const background = themes[theme]["background"];
-  var gradientDirection = "left";
+  var gradientDirection = "right";
   if (index % 2 === 0) {
-    gradientDirection = "right";
+    gradientDirection = "left";
   }
-  const backgroundImage = `linear-gradient(to ${gradientDirection}, #FFF0, ${background}), linear-gradient(to bottom, #FFF0, ${background}), url(${image})`;
+  const backgroundImage = `linear-gradient(to ${gradientDirection}, ${background} 0%, rgba(0, 0, 0, 0) 100%), url(${image})`;
   return { backgroundImage };
 };
 

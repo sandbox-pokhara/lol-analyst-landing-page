@@ -12,17 +12,21 @@ body {
 .root-container-wrapper {
   background-color: var(--background);
   color: var(--text-primary);
-  overflow: scroll;
-  width: 100vw;
+  overflow: auto;
   height: 100vh;
 }
 
 .root-container {
-  min-width: 900px;
-  min-height: 100vh;
-  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  min-width: 1080px;
+  width: 1080px;
+  max-width: 1080px;
+  height: 100vh;
 }
 
 .page-contents {
-  height: 100vh;
+  flex-grow: 1;
 }
