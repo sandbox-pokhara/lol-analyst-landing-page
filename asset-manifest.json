@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/lol-analyst-webapp/static/css/main.8a613dd0.css",
-    "main.js": "/lol-analyst-webapp/static/js/main.366fa3a5.js",
+    "main.css": "/lol-analyst-webapp/static/css/main.83cce672.css",
+    "main.js": "/lol-analyst-webapp/static/js/main.79d77501.js",
     "static/js/787.26293a2c.chunk.js": "/lol-analyst-webapp/static/js/787.26293a2c.chunk.js",
+    "static/media/logo.svg": "/lol-analyst-webapp/static/media/logo.f70e244c06dd905124b1b00e7d9e4255.svg",
     "index.html": "/lol-analyst-webapp/index.html",
-    "main.8a613dd0.css.map": "/lol-analyst-webapp/static/css/main.8a613dd0.css.map",
-    "main.366fa3a5.js.map": "/lol-analyst-webapp/static/js/main.366fa3a5.js.map",
+    "main.83cce672.css.map": "/lol-analyst-webapp/static/css/main.83cce672.css.map",
+    "main.79d77501.js.map": "/lol-analyst-webapp/static/js/main.79d77501.js.map",
     "787.26293a2c.chunk.js.map": "/lol-analyst-webapp/static/js/787.26293a2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a613dd0.css",
-    "static/js/main.366fa3a5.js"
+    "static/css/main.83cce672.css",
+    "static/js/main.79d77501.js"
   ]
 }
