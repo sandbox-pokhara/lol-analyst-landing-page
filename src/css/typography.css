@@ -27,3 +27,7 @@
   text-align: center;
   width: 626px;
 }
+
+.display {
+  font: var(--display);
+}

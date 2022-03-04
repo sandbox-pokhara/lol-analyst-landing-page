@@ -9,13 +9,17 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div data-theme={theme} className="root-container">
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path="/" exact element={<Home />} />
-          </Routes>
-        </Router>
+      <div data-theme={theme} className="root-container-wrapper">
+        <div className="root-container">
+          <Router>
+            <Navbar />
+            <div className="page-contents">
+              <Routes>
+                <Route path="/" exact element={<Home />} />
+              </Routes>
+            </div>
+          </Router>
+        </div>
       </div>
     </ThemeContext.Provider>
   );

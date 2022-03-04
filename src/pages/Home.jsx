@@ -2,13 +2,37 @@ import React, { useContext } from "react";
 import RiotLegalBoilerplate from "../components/RiotLegalBoilerplate";
 import { ThemeContext } from "../contexts";
 import "../css/home.css";
+import env from "../json/env";
 import themes from "../json/themes";
 
-const getFeatureBackground = (image, theme, index) => {
+const features = [
+  {
+    title: "Profile Analysis",
+    description: `Analyse your win rate, wins, losses and match history with our desktop app.
+      We're planning to bring online profile sharing, LP graph and more comprehensive profile page to you.
+      Join our discord for suggestions!`,
+    background: "/features/profile.png",
+  },
+  {
+    title: "Champ Select Analysis",
+    description: `Stragetize your picks based on your teammates' champion pool,
+      check your teammates' current and last season's rank and recent match history.
+      We're planning to add win/loss streak detection, one trick pony detection and many more in the future.`,
+    background: "/features/champ.png",
+  },
+];
+
+const getFeatureItemStyle = (index) => {
+  return { flexDirection: index % 2 === 0 ? "row" : "row-reverse" };
+};
+
+const getFeatureImageStyle = (image, theme, index) => {
   const background = themes[theme]["background"];
-  const backgroundImage = `linear-gradient(to ${
-    index % 2 === 0 ? "left" : "right"
-  }, #FFF0, ${background}), linear-gradient(to bottom, #FFF0, ${background}), url(${image})`;
+  var gradientDirection = "left";
+  if (index % 2 === 0) {
+    gradientDirection = "right";
+  }
+  const backgroundImage = `linear-gradient(to ${gradientDirection}, #FFF0, ${background}), linear-gradient(to bottom, #FFF0, ${background}), url(${image})`;
   return { backgroundImage };
 };
 
@@ -19,54 +43,51 @@ export default function Home() {
     <div className="home">
       <div className="main-header">
         <div className="main-header-title">
-          <span className="primary">Beta version </span> releasing soon.
+          <img
+            src={process.env.PUBLIC_URL + "/logo-title.svg"}
+            className="main-header-logo"
+            alt="logo"
+          />
+          <div className="beta-tag">beta</div>
         </div>
         <div className="main-header-subtitle">op.gg alternative for south east asian servers.</div>
       </div>
 
-      <div className="features">
-        <div className="main-subheading">Features</div>
-        <div className="feature-items">
-          <div className="feature-item">
-            <div className="feature-header">
-              <div className="feature-title">Profile Page Demo</div>
-              <div className="feature-subtitle">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ipsa,
-                repudiandae consequatur adipisci
-              </div>
-            </div>
+      <div className="contents">
+        {features.map((feature, index) => (
+          <div className="feature-item" style={getFeatureItemStyle(index)} key={index}>
             <div
               className="feature-image"
-              style={getFeatureBackground(
-                process.env.PUBLIC_URL + "/features/profile.png",
+              style={getFeatureImageStyle(
+                process.env.PUBLIC_URL + feature.background,
                 theme,
-                0
+                index
               )}
             ></div>
-          </div>
-          <div className="feature-item">
-            <div
-              className="feature-image"
-              style={getFeatureBackground(process.env.PUBLIC_URL + "/features/champ.png", theme, 1)}
-            ></div>
-            <div className="feature-header">
-              <div className="feature-title">Champ Select Page Demo</div>
-              <div className="feature-subtitle">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ipsa,
-                repudiandae consequatur adipisci
-              </div>
+            <div className="feature-info">
+              <div className="feature-title">{feature.title}</div>
+              <div className="feature-subtitle">{feature.description}</div>
             </div>
           </div>
+        ))}
+        <div className="help-discord">
+          <img src={process.env.PUBLIC_URL + "/discord.svg"} className="discord-logo" alt="" />
+          <div className="help-discord-text">
+            Help us improve the app by your valuable feedbacks on our{" "}
+            <a href={env.discordLink} target="_blank" rel="noreferrer">
+              discord
+            </a>
+            .
+          </div>
         </div>
+        <div
+          className="download-button"
+          onClick={() => window.open(env.latestVersionLink, "_blank")}
+        >
+          Download {env.latestVersion}
+        </div>
+        <RiotLegalBoilerplate />
       </div>
-      <div className="main-header">
-        <div className="heading">More features coming soon.</div>
-        <div className="heading">We are for the customers.</div>
-      </div>
-      <div className="main-header">
-        <div className="heading">Join our discord for more information.</div>
-      </div>
-      <RiotLegalBoilerplate />
     </div>
   );
 }

@@ -1,11 +1,9 @@
 .navbar {
-  width: 100%;
-  padding: 0 10%;
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 64px;
 }
 
 .navbar-left {
@@ -43,11 +41,11 @@
 }
 
 .logo {
-  height: 64px;
+  height: 30px;
   width: auto;
 }
 
-.discord-logo {
+.discord-logo-small {
   width: 30px;
   height: auto;
 }

@@ -1,19 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700;400;&family=Roboto:wght@400;500&display=swap");
 @import url(themes.css);
 @import url(typography.css);
 @import url(home.css);
-
-* {
-  box-sizing: border-box;
-}
+@import url(scrollbar.css);
 
 body {
   margin: 0;
+  overflow: hidden;
+}
+
+.root-container-wrapper {
+  background-color: var(--background);
+  color: var(--text-primary);
+  overflow: scroll;
+  width: 100vw;
+  height: 100vh;
 }
 
 .root-container {
-  background-color: var(--background);
-  color: var(--text-primary);
-  flex-grow: 1;
+  min-width: 900px;
   min-height: 100vh;
+  padding: 0 15%;
+}
+
+.page-contents {
+  height: 100vh;
 }
