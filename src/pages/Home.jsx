@@ -1,7 +1,7 @@
 import React from "react";
 import RiotLegalBoilerplate from "../components/RiotLegalBoilerplate";
 import "../css/home.css";
-import env from "../json/env";
+import config from "../json/config";
 import features from "../json/features";
 
 export default function Home() {
@@ -30,21 +30,21 @@ export default function Home() {
           </div>
         ))}
         <div className="help-discord">
-          <a href={env.discordLink} target="_blank" rel="noreferrer">
+          <a href={config.discordLink} target="_blank" rel="noreferrer">
             <img src={process.env.PUBLIC_URL + "/discord.svg"} className="discord-logo" alt="" />
           </a>
           <div className="help-discord-text">
             {"Help us improve the app by your valuable feedback on our "}
-            <a href={env.discordLink} target="_blank" rel="noreferrer">
+            <a href={config.discordLink} target="_blank" rel="noreferrer">
               discord.
             </a>
           </div>
         </div>
         <div
           className="download-button"
-          onClick={() => window.open(env.latestVersionLink, "_blank")}
+          onClick={() => window.open(config.latestVersionLink, "_blank")}
         >
-          Download {env.latestVersion}
+          Download {config.latestVersion}
         </div>
         <RiotLegalBoilerplate />
       </div>

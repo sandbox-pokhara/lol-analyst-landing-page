@@ -1,15 +1,17 @@
 import React from "react";
 import "../css/navbar.css";
 import { ReactComponent as Logo } from "../images/logo.svg";
-import env from "../json/env";
+import config from "../json/config";
 function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-item">
-        <Logo className="logo" fill="white" />
+        <a href="/">
+          <Logo className="logo" fill="white" />
+        </a>
       </div>
       <div className="navbar-item">
-        <a href={env.discordLink} target="_blank" rel="noreferrer">
+        <a href={config.discordLink} target="_blank" rel="noreferrer">
           <img
             src={process.env.PUBLIC_URL + "/discord.svg"}
             className="discord-logo-small"
