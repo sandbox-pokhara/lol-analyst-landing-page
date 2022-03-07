@@ -17,6 +17,12 @@ export default function Home() {
           <div className="beta-tag">beta</div>
         </div>
         <div className="main-header-subtitle">op.gg alternative for south east asian servers.</div>
+        <div
+          className="download-button"
+          onClick={() => window.open(config.latestVersionLink, "_blank")}
+        >
+          Download {config.latestVersion}
+        </div>
       </div>
 
       <div className="contents">
