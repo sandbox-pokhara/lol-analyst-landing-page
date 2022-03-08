@@ -108,11 +108,6 @@
   font: var(--heading);
 }
 
-.help-discord-text > a {
-  text-decoration: underline;
-  color: var(--gray);
-}
-
 .discord-logo {
   height: 120px;
   width: 106px;

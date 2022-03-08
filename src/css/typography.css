@@ -32,3 +32,8 @@
 .display {
   font: var(--display);
 }
+
+a {
+  text-decoration: underline;
+  color: var(--gray);
+}

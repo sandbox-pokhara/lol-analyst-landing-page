@@ -31,3 +31,12 @@ body {
 .page-contents {
   flex-grow: 1;
 }
+
+.privacy-policy {
+  font-family: var(--font-family);
+  color: var(--gray);
+}
+
+.privacy-policy h1 {
+  color: var(--primary);
+}
