@@ -1,3 +1,3 @@
-# lol-analyst-landing-page
+# lol-analyst-app-landing-page
 
-Landing page for LolAnalyst.
+Landing page for LolAnalystApp.

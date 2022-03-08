@@ -8,15 +8,19 @@ export default function Home() {
   return (
     <div className="home">
       <div className="main-header">
-        <div className="main-header-title">
-          <img
-            src={process.env.PUBLIC_URL + "/logo-title.svg"}
-            className="main-header-logo"
-            alt="logo"
-          />
-          <div className="beta-tag">beta</div>
+        <div className="title-description">
+          <div className="main-header-title">
+            <img
+              src={process.env.PUBLIC_URL + "/logo-title.svg"}
+              className="main-header-logo"
+              alt="logo"
+            />
+            <div className="beta-tag body">beta</div>
+          </div>
+          <div className="description gray">
+            op.gg alternative designed for south east asian servers
+          </div>
         </div>
-        <div className="main-header-subtitle">op.gg alternative for south east asian servers.</div>
         <div
           className="download-button"
           onClick={() => window.open(config.latestVersionLink, "_blank")}

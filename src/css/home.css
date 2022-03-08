@@ -13,7 +13,7 @@
 }
 
 .main-header > :not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 
 .beta-tag {
@@ -26,7 +26,6 @@
 }
 
 .main-header-title {
-  font: var(--heading);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,10 +41,8 @@
   width: auto;
 }
 
-.main-header-subtitle {
-  font: var(--main-subheading);
-  text-align: center;
-  color: var(--gray);
+.title-description > :not(:last-child) {
+  margin-bottom: 8px;
 }
 
 .contents {

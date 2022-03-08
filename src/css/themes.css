@@ -23,7 +23,8 @@
   --main-subheading: normal bold normal 2rem/2.1rem var(--font-family);
   --display: normal normal 400 3rem/3.3rem var(--font-family);
   --heading: normal normal bold 1.5rem/2rem var(--font-family);
-  --body: normal normal bold 1em/18px var(--font-family);
+  --description: normal normal 400 20px/24px var(--font-family);
+  --body: normal normal bold 15px/18px var(--font-family);
   --heading-small: normal normal bold 18px/22px var(--font-family);
   --body-small: normal normal normal 12px/15px var(--font-family);
   --legal-boilerplate: italic normal normal 9px/11px var(--font-family);
