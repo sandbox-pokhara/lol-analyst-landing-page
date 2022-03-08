@@ -1,0 +1,8 @@
+[
+  { "text": "Home", "to": "/" },
+  { "text": "About Us", "to": "/about-us" },
+  { "text": "Privacy Policy", "to": "/privacy-policy" },
+  { "text": "Contact Us", "to": "/contact-us" },
+  { "text": "Terms of Service", "to": "/tos" },
+  { "text": "FAQ", "to": "/faq" }
+]

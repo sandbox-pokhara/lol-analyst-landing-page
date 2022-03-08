@@ -1,5 +1,4 @@
 import React from "react";
-import RiotLegalBoilerplate from "../components/RiotLegalBoilerplate";
 import "../css/home.css";
 import config from "../json/config";
 import features from "../json/features";
@@ -56,7 +55,6 @@ export default function Home() {
         >
           Download {config.latestVersion}
         </div>
-        <RiotLegalBoilerplate />
       </div>
     </div>
   );

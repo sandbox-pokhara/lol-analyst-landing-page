@@ -3,13 +3,14 @@
 @import url(typography.css);
 @import url(home.css);
 @import url(scrollbar.css);
+@import url(footer.css);
 
 body {
   margin: 0;
   overflow: hidden;
 }
 
-.root-container-wrapper {
+#root-container-wrapper {
   background-color: var(--background);
   color: var(--text-primary);
   overflow: auto;
@@ -24,7 +25,6 @@ body {
   min-width: 1080px;
   width: 1080px;
   max-width: 1080px;
-  height: 100vh;
   padding: 0 16px 0 16px;
 }
 

@@ -51,7 +51,7 @@
   align-items: center;
 }
 
-.contents > :not(:last-child) {
+.contents > * {
   margin-bottom: 18rem;
 }
 

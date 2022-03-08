@@ -7,6 +7,7 @@
   --outline: #38465b;
   --muted: #3f474d;
   --gray: #8fa3b0;
+  --white: #ffffff;
   --text-primary: #ffffff;
   --primary: #70a7ff;
   --victory: #50fa7b;
@@ -26,7 +27,7 @@
   --description: normal normal 400 20px/24px var(--font-family);
   --body: normal normal bold 15px/18px var(--font-family);
   --heading-small: normal normal bold 18px/22px var(--font-family);
-  --body-small: normal normal normal 12px/15px var(--font-family);
+  --body-small: normal normal bold 12px/15px var(--font-family);
   --legal-boilerplate: italic normal normal 9px/11px var(--font-family);
 
   /* components */

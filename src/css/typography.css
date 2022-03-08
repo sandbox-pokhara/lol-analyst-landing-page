@@ -24,9 +24,6 @@
 
 .legal-boilerplate {
   font: var(--legal-boilerplate);
-  text-align: center;
-  width: 626px;
-  margin-bottom: 16px;
 }
 
 .display {
@@ -34,6 +31,5 @@
 }
 
 a {
-  text-decoration: underline;
   color: var(--gray);
 }

@@ -1,15 +1,15 @@
-.root-container-wrapper::-webkit-scrollbar {
+#root-container-wrapper::-webkit-scrollbar {
   background-color: var(--background);
   width: 14px;
   height: 14px;
 }
 
-.root-container-wrapper::-webkit-scrollbar-thumb {
+#root-container-wrapper::-webkit-scrollbar-thumb {
   background: var(--outline);
   border-radius: 1ex;
   border: 3px solid var(--background);
 }
 
-.root-container-wrapper::-webkit-scrollbar-corner {
+#root-container-wrapper::-webkit-scrollbar-corner {
   background: var(--background);
 }
