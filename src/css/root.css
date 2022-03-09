@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+#root-container-wrapper {
+  background-color: var(--background);
+  color: var(--text-primary);
+  overflow: auto;
+  height: 100vh;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  min-width: 108rem;
+  width: 108rem;
+  max-width: 1080rem;
+  padding: 0 1.6rem 0 1.6rem;
+  min-height: 100vh;
+}
+
+.privacy-policy,
+.contact-us {
+  width: inherit;
+  font-family: var(--font-family);
+  color: var(--gray);
+  flex-grow: 1;
+}
+
+.privacy-policy h1,
+.contact-us h1 {
+  color: var(--primary);
+}
+
+.contact-us > :not(:last-child) {
+  margin-bottom: 1.6rem;
+}

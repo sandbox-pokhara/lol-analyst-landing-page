@@ -16,7 +16,7 @@ export default function Home() {
             />
             <div className="beta-tag body">beta</div>
           </div>
-          <div className="description gray">
+          <div className="description gray main-header-subtitle">
             op.gg alternative designed for south east asian servers
           </div>
         </div>
@@ -31,7 +31,11 @@ export default function Home() {
       <div className="contents">
         {features.map((feature, index) => (
           <div className={`feature-item ${feature.className}`} key={index}>
-            <img alt="feature" src={process.env.PUBLIC_URL + feature.background} />
+            <img
+              className="feature-image"
+              alt="feature"
+              src={process.env.PUBLIC_URL + feature.background}
+            />
             <div className="feature-info">
               <div className="feature-title">{feature.title}</div>
               <div className="feature-subtitle">{feature.description}</div>

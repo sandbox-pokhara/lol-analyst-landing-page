@@ -1,18 +1,18 @@
 .footer {
   display: flex;
   flex-direction: column;
-  padding: 16px 0px;
+  padding: 1.6rem;
 }
 
 .footer-items {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 32px;
+  min-height: 3.2rem;
 }
 
 .footer-items > :not(:last-child) {
-  margin-right: 16px;
+  margin-right: 1.6rem;
 }
 
 .footer a {

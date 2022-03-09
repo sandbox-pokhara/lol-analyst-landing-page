@@ -2,10 +2,6 @@
   font: var(--body);
 }
 
-.main-heading {
-  font: var(--main-heading);
-}
-
 .heading {
   font: var(--heading);
 }
@@ -28,6 +24,7 @@
 
 .legal-boilerplate {
   font: var(--legal-boilerplate);
+  padding: 1.6rem 0;
 }
 
 .display {

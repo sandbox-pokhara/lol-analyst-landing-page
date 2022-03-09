@@ -24,17 +24,17 @@ form > * {
 }
 
 form > :not(:last-child) {
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 input,
 textarea {
-  padding: 10px;
+  padding: 1rem;
   background: var(--surface);
   border: none;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   color: var(--text-primary);
-  width: 300px;
+  width: 30rem;
   resize: none;
   color-scheme: dark;
 }

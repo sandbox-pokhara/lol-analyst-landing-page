@@ -1,48 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url(themes.css);
 @import url(typography.css);
+@import url(root.css);
 @import url(home.css);
 @import url(scrollbar.css);
 @import url(footer.css);
 @import url(form.css);
 @import url(about-us.css);
-
-body {
-  margin: 0;
-  overflow: hidden;
-}
-
-#root-container-wrapper {
-  background-color: var(--background);
-  color: var(--text-primary);
-  overflow: auto;
-  height: 100vh;
-}
-
-.root-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  min-width: 1080px;
-  width: 1080px;
-  max-width: 1080px;
-  padding: 0 16px 0 16px;
-  min-height: 100vh;
-}
-
-.privacy-policy,
-.contact-us {
-  width: inherit;
-  font-family: var(--font-family);
-  color: var(--gray);
-}
-
-.privacy-policy h1,
-.contact-us h1 {
-  color: var(--primary);
-}
-
-.contact-us > :not(:last-child) {
-  margin-bottom: 16px;
-}
+@import url(responsive.css);

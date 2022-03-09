@@ -1,0 +1,137 @@
+@media (max-width: 1080px) {
+  .root-container {
+    min-width: 70rem;
+    width: 70rem;
+    max-width: 70rem;
+  }
+
+  .feature-item-right {
+    flex-direction: column-reverse;
+  }
+
+  .feature-item-left {
+    flex-direction: column-reverse;
+  }
+
+  .feature-info {
+    width: 70rem;
+  }
+
+  .feature-info > :not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+
+  .feature-image {
+    width: 70rem;
+    height: auto;
+  }
+
+  .about-us-image {
+    height: auto;
+    width: 70rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .root-container {
+    min-width: 40rem;
+    width: 40rem;
+    max-width: 40rem;
+  }
+
+  .main-header-logo {
+    height: 3rem;
+    width: auto;
+  }
+
+  .main-header-subtitle {
+    text-align: center;
+  }
+
+  .contents > * {
+    margin-bottom: 15rem;
+  }
+
+  .feature-item-right {
+    flex-direction: column-reverse;
+  }
+
+  .feature-item-left {
+    flex-direction: column-reverse;
+  }
+
+  .feature-info {
+    width: 40rem;
+  }
+
+  .feature-info > :not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+
+  .feature-image {
+    width: 40rem;
+    height: auto;
+  }
+
+  .about-us-image {
+    width: 40rem;
+    height: auto;
+  }
+
+  .footer-items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-items > :not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .root-container {
+    min-width: 30rem;
+    width: 30rem;
+    max-width: 30rem;
+  }
+
+  .main-header-logo {
+    height: 3rem;
+    width: auto;
+  }
+
+  .main-header-subtitle {
+    text-align: center;
+  }
+
+  .feature-item-right {
+    flex-direction: column-reverse;
+  }
+
+  .feature-item-left {
+    flex-direction: column-reverse;
+  }
+
+  .feature-info {
+    width: 30rem;
+  }
+
+  .feature-info > :not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+
+  .feature-image {
+    width: 30rem;
+    height: auto;
+  }
+
+  .about-us-image {
+    width: 30rem;
+    height: auto;
+  }
+
+  .our-mission-text {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
