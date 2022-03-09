@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { ThemeContext } from "./contexts";
+import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -22,6 +23,7 @@ function App() {
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/tos" element={<Tos />} />
+              <Route path="/about-us" element={<AboutUs />} />
             </Routes>
             <Footer />
           </Router>

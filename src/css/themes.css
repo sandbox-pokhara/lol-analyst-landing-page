@@ -90,3 +90,7 @@
 .offline-translucent {
   color: var(--offline-translucent);
 }
+
+.white {
+  color: var(--white);
+}
