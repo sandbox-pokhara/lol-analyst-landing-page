@@ -4,6 +4,7 @@
 @import url(home.css);
 @import url(scrollbar.css);
 @import url(footer.css);
+@import url(form.css);
 
 body {
   margin: 0;
@@ -26,17 +27,25 @@ body {
   width: 1080px;
   max-width: 1080px;
   padding: 0 16px 0 16px;
+  min-height: 100vh;
 }
 
 .page-contents {
   flex-grow: 1;
+  width: 100%;
 }
 
-.privacy-policy {
+.privacy-policy,
+.contact-us {
   font-family: var(--font-family);
   color: var(--gray);
 }
 
-.privacy-policy h1 {
+.privacy-policy h1,
+.contact-us h1 {
   color: var(--primary);
+}
+
+.contact-us > :not(:last-child) {
+  margin-bottom: 16px;
 }

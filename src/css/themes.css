@@ -1,7 +1,7 @@
 [data-theme="dark"] {
   /*  colors */
   --title: #0b0c0f;
-  --surface: #0f1115;
+  --surface: #15181e;
   --surface-hover: #000000;
   --background: #0f1115;
   --outline: #38465b;
@@ -29,6 +29,7 @@
   --heading-small: normal normal bold 18px/22px var(--font-family);
   --body-small: normal normal bold 12px/15px var(--font-family);
   --legal-boilerplate: italic normal normal 9px/11px var(--font-family);
+  --heading-large: normal normal bold 34px/41px var(--font-family);
 
   /* components */
   --nav-item-underline: -3px;
