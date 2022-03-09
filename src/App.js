@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { ThemeContext } from "./contexts";
-import ContactUS from "./pages/ContactUs";
+import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Tos from "./pages/Tos";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -16,13 +17,12 @@ function App() {
         <div className="root-container">
           <Router>
             <Navbar />
-            <div className="page-contents">
-              <Routes>
-                <Route path="/" exact element={<Home />} />
-                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-                <Route path="/contact-us" element={<ContactUS />} />
-              </Routes>
-            </div>
+            <Routes>
+              <Route path="/" exact element={<Home />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="/tos" element={<Tos />} />
+            </Routes>
             <Footer />
           </Router>
         </div>

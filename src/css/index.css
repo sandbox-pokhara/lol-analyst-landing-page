@@ -30,13 +30,9 @@ body {
   min-height: 100vh;
 }
 
-.page-contents {
-  flex-grow: 1;
-  width: 100%;
-}
-
 .privacy-policy,
 .contact-us {
+  width: inherit;
   font-family: var(--font-family);
   color: var(--gray);
 }

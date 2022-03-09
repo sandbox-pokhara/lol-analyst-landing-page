@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function PrivacyPolicy() {
   return (
@@ -332,14 +333,8 @@ export default function PrivacyPolicy() {
       <p>If you have any questions about this Privacy Policy, You can contact us:</p>
       <ul>
         <li>
-          By visiting this page on our website:{" "}
-          <a
-            href="https://lolanalyst.app/contact"
-            rel="external nofollow noopener noreferrer"
-            target="_blank"
-          >
-            https://lolanalyst.app/contact
-          </a>
+          {"By visiting this page on our website: "}
+          <Link to={"/contact-us"}>https://lolanalyst.app/contact-us</Link>
         </li>
       </ul>
     </div>
