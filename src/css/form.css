@@ -14,16 +14,16 @@
   color: var(--muted);
 }
 
-form {
+.contact-us-form {
   display: flex;
   flex-direction: column;
 }
 
-form > * {
+.contact-us-form > * {
   font: var(--body);
 }
 
-form > :not(:last-child) {
+.contact-us-form > :not(:last-child) {
   margin-bottom: 1.6rem;
 }
 
@@ -46,11 +46,15 @@ textarea:focus {
 
 input[type="submit"] {
   background: var(--muted);
-  font: var(--heading-small);
   box-sizing: content-box;
 }
 
 input[type="submit"]:hover {
   background: var(--primary);
   cursor: pointer;
+}
+
+input[type="submit"]:disabled {
+  background: var(--muted);
+  cursor: not-allowed;
 }

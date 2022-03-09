@@ -10,8 +10,8 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-items">
         <div className="body-small gray">© 2022 Sandbox Software Pvt. Ltd.</div>
-        {footerLinks.map((l) => (
-          <Link className="body-small gray" to={l.to} onClick={scroll}>
+        {footerLinks.map((l, i) => (
+          <Link key={i} className="body-small gray" to={l.to} onClick={scroll}>
             {l.text}
           </Link>
         ))}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AboutUs() {
   return (
@@ -24,8 +25,11 @@ export default function AboutUs() {
           boost our performace. So, we, as a group of aspiring gamers/developers, decided create a
           beautifully designed robust app that aims to improve gameplay inside league of legends.
           We, as a team, are always looking to add new creative features to improve to app and hear
-          from you. If you have any questions, leave a message in our{" "}
-          <a href="/contact-us">contact form</a>.
+          from you.
+        </div>
+        <div className="about-us-text">
+          {"If you have any queries, leave a message using our "}
+          <Link to="/contact-us">contact form.</Link>
         </div>
       </div>
     </div>
