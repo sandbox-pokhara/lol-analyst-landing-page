@@ -1,0 +1,22 @@
+.non-ideal-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.non-ideal-state > .emote {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  white-space: nowrap;
+  margin-bottom: 32px;
+  color: var(--muted);
+}
+
+.non-ideal-state > .text {
+  font: var(--heading);
+  white-space: nowrap;
+}

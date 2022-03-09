@@ -6,6 +6,7 @@ import { ThemeContext } from "./contexts";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Tos from "./pages/Tos";
 
@@ -24,6 +25,7 @@ function App() {
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/tos" element={<Tos />} />
               <Route path="/about-us" element={<AboutUs />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
           </Router>

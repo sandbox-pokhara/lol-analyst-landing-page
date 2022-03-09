@@ -43,3 +43,11 @@ body {
 .contact-us > :not(:last-child) {
   margin-bottom: 1.6rem;
 }
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  flex-grow: 1;
+  justify-content: center;
+}
