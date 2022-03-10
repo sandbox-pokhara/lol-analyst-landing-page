@@ -18,6 +18,10 @@
   font: var(--heading-large);
 }
 
+.paragraph {
+  font: var(--paragraph);
+}
+
 .body-small {
   font: var(--body-small);
 }

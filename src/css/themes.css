@@ -8,8 +8,10 @@
   --body: normal normal bold 1.5rem / normal var(--font-family);
   --heading-small: normal normal bold 1.8rem / normal var(--font-family);
   --body-small: normal normal bold 1.2rem / normal var(--font-family);
-  --legal-boilerplate: italic normal normal 0.9rem / normal var(--font-family);
   --heading-large: normal normal bold 3.4rem / normal var(--font-family);
+  --paragraph: normal normal normal 1.6rem / normal var(--font-family);
+  /* using px because too small to read */
+  --legal-boilerplate: italic normal normal 9px / normal var(--font-family);
 }
 
 [data-theme="dark"] {
