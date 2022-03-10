@@ -1,13 +1,13 @@
 #root-container-wrapper::-webkit-scrollbar {
   background-color: var(--background);
-  width: 14px;
-  height: 14px;
+  width: 1.4rem;
+  height: 1.4rem;
 }
 
 #root-container-wrapper::-webkit-scrollbar-thumb {
   background: var(--outline);
-  border-radius: 1ex;
-  border: 3px solid var(--background);
+  border-radius: 0.7rem;
+  border: 0.3rem solid var(--background);
 }
 
 #root-container-wrapper::-webkit-scrollbar-corner {

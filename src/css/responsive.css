@@ -1,4 +1,8 @@
 /* desktop */
+html {
+  font-size: 10px;
+}
+
 .feature-info {
   width: 50%;
 }
@@ -7,11 +11,28 @@
   width: 50%;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+
   .root-container {
-    min-width: 70rem;
-    width: 70rem;
-    max-width: 70rem;
+    width: 600px;
+    min-width: 600px;
+    max-width: 600px;
+  }
+
+  .contents {
+    width: 100%;
+  }
+
+  .feature-info {
+    width: 100%;
+    margin-bottom: 2.4rem;
+  }
+
+  .feature-image {
+    width: 100%;
   }
 
   .feature-item-right {
@@ -20,58 +41,6 @@
 
   .feature-item-left {
     flex-direction: column-reverse;
-  }
-
-  .feature-info > :not(:last-child) {
-    margin-bottom: 0.5em;
-  }
-
-  .about-us-image {
-    height: auto;
-    width: 70rem;
-  }
-}
-
-@media (max-width: 700px) {
-  :root {
-    --heading-large: normal normal bold 3rem / normal var(--font-family);
-    --display: normal normal 400 3.5rem / normal var(--font-family);
-  }
-
-  .root-container {
-    min-width: 40rem;
-    width: 40rem;
-    max-width: 40rem;
-  }
-
-  .main-header-logo {
-    height: 3rem;
-    width: auto;
-  }
-
-  .main-header-subtitle {
-    text-align: center;
-  }
-
-  .contents > * {
-    margin-bottom: 15rem;
-  }
-
-  .feature-item-right {
-    flex-direction: column-reverse;
-  }
-
-  .feature-item-left {
-    flex-direction: column-reverse;
-  }
-
-  .feature-info > :not(:last-child) {
-    margin-bottom: 0.5em;
-  }
-
-  .about-us-image {
-    width: 40rem;
-    height: auto;
   }
 
   .footer-items {
@@ -79,46 +48,25 @@
     align-items: flex-start;
   }
 
-  .footer-items > :not(:last-child) {
-    margin-bottom: 1rem;
+  .footer-items > * {
+    margin-bottom: 1.2rem;
   }
 }
 
-@media (max-width: 500px) {
-  :root {
-    --heading-large: normal normal bold 2.5rem / normal var(--font-family);
-    --display: normal normal 400 3.5rem / normal var(--font-family);
+@media (max-width: 650px) {
+  html {
+    font-size: 7px;
   }
 
   .root-container {
-    min-width: 30rem;
-    width: 30rem;
-    max-width: 30rem;
+    margin: 0;
+    width: inherit;
+    min-width: auto;
+    max-width: auto;
   }
 
   .main-header-logo {
-    height: 3rem;
+    height: 4rem;
     width: auto;
-  }
-
-  .main-header-subtitle {
-    text-align: center;
-  }
-
-  .feature-item-right {
-    flex-direction: column-reverse;
-  }
-
-  .feature-item-left {
-    flex-direction: column-reverse;
-  }
-
-  .feature-info > :not(:last-child) {
-    margin-bottom: 0.5em;
-  }
-
-  .about-us-image {
-    width: 30rem;
-    height: auto;
   }
 }

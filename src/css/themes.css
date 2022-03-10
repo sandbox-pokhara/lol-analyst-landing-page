@@ -11,6 +11,7 @@
   --heading-large: normal normal bold 3.4rem / normal var(--font-family);
   --paragraph: normal normal normal 1.6rem / normal var(--font-family);
   /* using px because too small to read */
+  --footer-item: normal normal bold 12px / normal var(--font-family);
   --legal-boilerplate: italic normal normal 9px / normal var(--font-family);
 }
 

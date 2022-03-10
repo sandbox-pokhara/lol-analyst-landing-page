@@ -9,9 +9,9 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-items">
-        <div className="body-small gray">© 2022 Sandbox Software Pvt. Ltd.</div>
+        <div className="footer-item gray">© 2022 Sandbox Software Pvt. Ltd.</div>
         {footerLinks.map((l, i) => (
-          <Link key={i} className="body-small gray" to={l.to} onClick={scroll}>
+          <Link key={i} className="footer-item gray" to={l.to} onClick={scroll}>
             {l.text}
           </Link>
         ))}

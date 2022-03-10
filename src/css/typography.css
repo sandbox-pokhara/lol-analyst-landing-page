@@ -8,6 +8,7 @@
 
 .description {
   font: var(--description);
+  text-align: center;
 }
 
 .heading-small {
@@ -24,6 +25,10 @@
 
 .body-small {
   font: var(--body-small);
+}
+
+.footer-item {
+  font: var(--footer-item);
 }
 
 .legal-boilerplate {
