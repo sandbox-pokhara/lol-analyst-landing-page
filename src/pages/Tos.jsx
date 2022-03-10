@@ -169,8 +169,8 @@ export default function Tos() {
       <h1 className="heading-large">Changes to These Terms and Conditions</h1>
       <p className="paragraph">
         We reserve the right, at Our sole discretion, to modify or replace these Terms at any time.
-        If a revision is material We will make reasonable efforts to provide at least 30 days'
-        notice prior to any new terms taking effect. What constitutes a material change will be
+        You acknowledge and agree that it is Your responsibility to review this terms of service
+        periodically and become aware of modifications. What constitutes a material change will be
         determined at Our sole discretion.
       </p>
       <p className="paragraph">

@@ -265,8 +265,7 @@ export default function PrivacyPolicy() {
       <h3 className="heading-small">Business Transactions</h3>
       <p className="paragraph">
         If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may
-        be transferred. We will provide notice before Your Personal Data is transferred and becomes
-        subject to a different Privacy Policy.
+        be transferred.
       </p>
       <h3 className="heading-small">Law enforcement</h3>
       <p className="paragraph">
@@ -319,17 +318,9 @@ export default function PrivacyPolicy() {
       </p>
       <h1 className="heading-large">Changes to this Privacy Policy</h1>
       <p className="paragraph">
-        We may update Our Privacy Policy from time to time. We will notify You of any changes by
-        posting the new Privacy Policy on this page.
-      </p>
-      <p className="paragraph">
-        We will let You know via email and/or a prominent notice on Our Service, prior to the
-        change becoming effective and update the &quot;Last updated&quot; date at the top of this
-        Privacy Policy.
-      </p>
-      <p className="paragraph">
-        You are advised to review this Privacy Policy periodically for any changes. Changes to this
-        Privacy Policy are effective when they are posted on this page.
+        We may update Our Privacy Policy from time to time. You are advised to review this Privacy
+        Policy periodically for any changes. Changes to this Privacy Policy are effective when they
+        are posted on this page.
       </p>
       <h1 className="heading-large">Contact Us</h1>
       <p className="paragraph">
