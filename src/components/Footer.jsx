@@ -4,7 +4,7 @@ import footerLinks from "../json/footer-links.json";
 import RiotLegalBoilerplate from "./RiotLegalBoilerplate";
 
 export default function Footer() {
-  const scroll = () => document.getElementById("root-container-wrapper").scrollTo(0, 0);
+  const scroll = () => window.scrollTo(0, 0);
 
   return (
     <div className="footer">

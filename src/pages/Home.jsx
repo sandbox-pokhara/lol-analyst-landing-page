@@ -14,14 +14,14 @@ export default function Home() {
               className="main-header-logo"
               alt="logo"
             />
-            <div className="beta-tag body">beta</div>
+            <div className="beta-tag body white">beta</div>
           </div>
           <div className="description gray main-header-subtitle">
             op.gg alternative designed for south east asian servers
           </div>
         </div>
         <div
-          className="download-button"
+          className="download-button white"
           onClick={() => window.open(config.latestVersionLink, "_blank")}
         >
           Download {config.latestVersion}
@@ -37,7 +37,7 @@ export default function Home() {
               src={process.env.PUBLIC_URL + feature.background}
             />
             <div className="feature-info">
-              <div className="feature-title">{feature.title}</div>
+              <div className="feature-title white">{feature.title}</div>
               <div className="feature-subtitle">{feature.description}</div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Home() {
           <a href={config.discordLink} target="_blank" rel="noreferrer">
             <img src={process.env.PUBLIC_URL + "/discord.svg"} className="discord-logo" alt="" />
           </a>
-          <div className="help-discord-text">
+          <div className="help-discord-text white">
             {"Help us improve the app by your valuable feedback on our "}
             <a href={config.discordLink} target="_blank" rel="noreferrer">
               discord.
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="download-button"
+          className="download-button white"
           onClick={() => window.open(config.latestVersionLink, "_blank")}
         >
           Download {config.latestVersion}

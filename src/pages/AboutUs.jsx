@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <div className="about-us-page">
       <div className="our-mission">
-        <div className="body">OUR MISSION</div>
+        <div className="body white">OUR MISSION</div>
         <div className="our-mission-text">
           Our mission is to help league of legends gamers, especially focusing{" "}
           <span className="white">South East Asia</span>, with a personal companion that provides

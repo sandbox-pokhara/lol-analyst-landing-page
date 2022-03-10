@@ -1,16 +1,7 @@
 body {
   margin: 0;
-  overflow: hidden;
-}
-
-#root-container-wrapper {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--background);
-  color: var(--text-primary);
   overflow-y: scroll;
-  margin: 0 auto;
-  height: 100vh;
+  background-color: var(--background);
 }
 
 .root-container {
