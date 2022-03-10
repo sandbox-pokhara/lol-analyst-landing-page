@@ -5,312 +5,239 @@ export default function PrivacyPolicy() {
   return (
     <div className="privacy-policy">
       <h1 className="heading-large">Privacy Policy</h1>
-      <p className="paragraph">Last updated: March 08, 2022</p>
+      <p className="paragraph">Last updated: March 10, 2022</p>
       <p className="paragraph">
-        This Privacy Policy describes Our policies and procedures on the collection, use and
-        disclosure of Your information when You use the Service and tells You about Your privacy
-        rights and how the law protects You.
+        At LolAnalystApp, accessible from{" "}
+        <a href="https://lolanalyst.app" target="_blank" rel="noreferrer">
+          https://lolanalyst.app
+        </a>
+        , one of our main priorities is the privacy of our visitors. This Privacy Policy document
+        contains types of information that is collected and recorded by LolAnalystApp and how we
+        use it.
+      </p>
+
+      <p className="paragraph">
+        If you have additional questions or require more information about our Privacy Policy, do
+        not hesitate to contact us.
+      </p>
+
+      <p className="paragraph">
+        This Privacy Policy applies only to our online activities and is valid for visitors to our
+        website with regards to the information that they shared and/or collect in LolAnalystApp.
+        This policy is not applicable to any information collected offline or via channels other
+        than this website.
+      </p>
+
+      <h1 className="heading-large">Consent</h1>
+
+      <p className="paragraph">
+        By using our website, you hereby consent to our Privacy Policy and agree to its terms.
+      </p>
+
+      <h1 className="heading-large">Information we collect</h1>
+
+      <p className="paragraph">
+        The personal information that you are asked to provide, and the reasons why you are asked
+        to provide it, will be made clear to you at the point we ask you to provide your personal
+        information.
       </p>
       <p className="paragraph">
-        We use Your Personal data to provide and improve the Service. By using the Service, You
-        agree to the collection and use of information in accordance with this Privacy Policy.
+        If you contact us directly, we may receive additional information about you such as your
+        name, email address, phone number, the contents of the message and/or attachments you may
+        send us, and any other information you may choose to provide.
       </p>
-      <h1 className="heading-large">Interpretation and Definitions</h1>
-      <h2 className="heading">Interpretation</h2>
+      <p className="paragraph">When you register for an Account, we may ask for your email.</p>
+
+      <h1 className="heading-large">How we use your information</h1>
+
+      <p className="paragraph">We use the information we collect in various ways, including to:</p>
+
+      <ul className="paragraph">
+        <li>Provide, operate, and maintain our website</li>
+        <li>Improve, personalize, and expand our website</li>
+        <li>Understand and analyze how you use our website</li>
+        <li>Develop new products, services, features, and functionality</li>
+        <li>
+          Communicate with you, either directly or through one of our partners, including for
+          customer service, to provide you with updates and other information relating to the
+          website, and for marketing and promotional purposes
+        </li>
+        <li>Send you emails</li>
+        <li>Find and prevent fraud</li>
+      </ul>
+
+      <h1 className="heading-large">Log Files</h1>
+
       <p className="paragraph">
-        The words of which the initial letter is capitalized have meanings defined under the
-        following conditions. The following definitions shall have the same meaning regardless of
-        whether they appear in singular or in plural.
+        LolAnalystApp follows a standard procedure of using log files. These files log visitors
+        when they visit websites. All hosting companies do this and a part of hosting services'
+        analytics. The information collected by log files include internet protocol (IP) addresses,
+        browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages,
+        and possibly the number of clicks. These are not linked to any information that is
+        personally identifiable. The purpose of the information is for analyzing trends,
+        administering the site, tracking users' movement on the website, and gathering demographic
+        information.
       </p>
-      <h2 className="heading">Definitions</h2>
-      <p className="paragraph">For the purposes of this Privacy Policy:</p>
+
+      <h1 className="heading-large">Cookies and Web Beacons</h1>
+
+      <p className="paragraph">
+        Like any other website, LolAnalystApp uses 'cookies'. These cookies are used to store
+        information including visitors' preferences, and the pages on the website that the visitor
+        accessed or visited. The information is used to optimize the users' experience by
+        customizing our web page content based on visitors' browser type and/or other information.
+      </p>
+
+      <h1 className="heading-large">Google DoubleClick DART Cookie</h1>
+
+      <p className="paragraph">
+        Google is one of a third-party vendor on our site. It also uses cookies, known as DART
+        cookies, to serve ads to our site visitors based upon their visit to www.website.com and
+        other sites on the internet. However, visitors may choose to decline the use of DART
+        cookies by visiting the Google ad and content network Privacy Policy at the following URL –{" "}
+        <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noreferrer">
+          https://policies.google.com/technologies/ads
+        </a>
+      </p>
+
+      <h1 className="heading-large">Our Advertising Partners</h1>
+
+      <p className="paragraph">
+        Some of advertisers on our site may use cookies and web beacons. Our advertising partners
+        are listed below. Each of our advertising partners has their own Privacy Policy for their
+        policies on user data. For easier access, we hyperlinked to their Privacy Policies below.
+      </p>
+
       <ul className="paragraph">
         <li>
+          <p className="paragraph">Google</p>
           <p className="paragraph">
-            <strong>Account</strong> means a unique account created for You to access our Service
-            or parts of our Service.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Affiliate</strong> means an entity that controls, is controlled by or is under
-            common control with a party, where &quot;control&quot; means ownership of 50% or more
-            of the shares, equity interest or other securities entitled to vote for election of
-            directors or other managing authority.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Application</strong> means the software program provided by the Company
-            downloaded by You on any electronic device, named LolAnalystApp
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Company</strong> (referred to as either &quot;the Company&quot;,
-            &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Sandbox
-            Software Pvt. Ltd., Pokhara, Nepal.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Country</strong> refers to: Nepal
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Device</strong> means any device that can access the Service such as a
-            computer, a cellphone or a digital tablet.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Personal Data</strong> is any information that relates to an identified or
-            identifiable individual.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Service</strong> refers to the Application.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Service Provider</strong> means any natural or legal person who processes the
-            data on behalf of the Company. It refers to third-party companies or individuals
-            employed by the Company to facilitate the Service, to provide the Service on behalf of
-            the Company, to perform services related to the Service or to assist the Company in
-            analyzing how the Service is used.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>Usage Data</strong> refers to data collected automatically, either generated by
-            the use of the Service or from the Service infrastructure itself (for example, the
-            duration of a page visit).
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>You</strong> means the individual accessing or using the Service, or the
-            company, or other legal entity on behalf of which such individual is accessing or using
-            the Service, as applicable.
+            <a
+              href="https://policies.google.com/technologies/ads"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://policies.google.com/technologies/ads
+            </a>
           </p>
         </li>
       </ul>
-      <h1 className="heading-large">Collecting and Using Your Personal Data</h1>
-      <h2 className="heading">Types of Data Collected</h2>
-      <h3 className="heading-small">Personal Data</h3>
+
+      <h1 className="heading-large">Advertising Partners Privacy Policies</h1>
+
       <p className="paragraph">
-        While using Our Service, We may ask You to provide Us with certain personally identifiable
-        information that can be used to contact or identify You. Personally identifiable
-        information may include, but is not limited to:
+        You may consult this list to find the Privacy Policy for each of the advertising partners
+        of LolAnalystApp.
       </p>
-      <ul className="paragraph">
-        <li>
-          <p className="paragraph">Email address</p>
-        </li>
-        <li>
-          <p className="paragraph">Usage Data</p>
-        </li>
-      </ul>
-      <h3 className="heading-small">Usage Data</h3>
-      <p className="paragraph">Usage Data is collected automatically when using the Service.</p>
+
       <p className="paragraph">
-        Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP
-        address), browser type, browser version, the pages of our Service that You visit, the time
-        and date of Your visit, the time spent on those pages, unique device identifiers and other
-        diagnostic data.
+        Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web
+        Beacons that are used in their respective advertisements and links that appear on
+        LolAnalystApp, which are sent directly to users' browser. They automatically receive your
+        IP address when this occurs. These technologies are used to measure the effectiveness of
+        their advertising campaigns and/or to personalize the advertising content that you see on
+        websites that you visit.
       </p>
+
       <p className="paragraph">
-        When You access the Service by or through a mobile device, We may collect certain
-        information automatically, including, but not limited to, the type of mobile device You
-        use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile
-        operating system, the type of mobile Internet browser You use, unique device identifiers
-        and other diagnostic data.
+        Note that LolAnalystApp has no access to or control over these cookies that are used by
+        third-party advertisers.
       </p>
+
+      <h1 className="heading-large">Third Party Privacy Policies</h1>
+
       <p className="paragraph">
-        We may also collect information that Your browser sends whenever You visit our Service or
-        when You access the Service by or through a mobile device.
+        LolAnalystApp's Privacy Policy does not apply to other advertisers or websites. Thus, we
+        are advising you to consult the respective Privacy Policies of these third-party ad servers
+        for more detailed information. It may include their practices and instructions about how to
+        opt-out of certain options.{" "}
       </p>
-      <h2 className="heading">Use of Your Personal Data</h2>
-      <p className="paragraph">The Company may use Personal Data for the following purposes:</p>
-      <ul className="paragraph">
-        <li>
-          <p className="paragraph">
-            <strong>To provide and maintain our Service</strong>, including to monitor the usage of
-            our Service.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>To manage Your Account:</strong> to manage Your registration as a user of the
-            Service. The Personal Data You provide can give You access to different functionalities
-            of the Service that are available to You as a registered user.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>For the performance of a contract:</strong> the development, compliance and
-            undertaking of the purchase contract for the products, items or services You have
-            purchased or of any other contract with Us through the Service.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or
-            other equivalent forms of electronic communication, such as a mobile application's push
-            notifications regarding updates or informative communications related to the
-            functionalities, products or contracted services, including the security updates, when
-            necessary or reasonable for their implementation.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>To provide You</strong> with news, special offers and general information about
-            other goods, services and events which we offer that are similar to those that you have
-            already purchased or enquired about unless You have opted not to receive such
-            information.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>To manage Your requests:</strong> To attend and manage Your requests to Us.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>For business transfers:</strong> We may use Your information to evaluate or
-            conduct a merger, divestiture, restructuring, reorganization, dissolution, or other
-            sale or transfer of some or all of Our assets, whether as a going concern or as part of
-            bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about
-            our Service users is among the assets transferred.
-          </p>
-        </li>
-        <li>
-          <p className="paragraph">
-            <strong>For other purposes</strong>: We may use Your information for other purposes,
-            such as data analysis, identifying usage trends, determining the effectiveness of our
-            promotional campaigns and to evaluate and improve our Service, products, services,
-            marketing and your experience.
-          </p>
-        </li>
-      </ul>
+
       <p className="paragraph">
-        We may share Your personal information in the following situations:
+        You can choose to disable cookies through your individual browser options. To know more
+        detailed information about cookie management with specific web browsers, it can be found at
+        the browsers' respective websites.
       </p>
-      <ul className="paragraph">
-        <li>
-          <strong>With Service Providers:</strong> We may share Your personal information with
-          Service Providers to monitor and analyze the use of our Service, to contact You.
-        </li>
-        <li>
-          <strong>For business transfers:</strong> We may share or transfer Your personal
-          information in connection with, or during negotiations of, any merger, sale of Company
-          assets, financing, or acquisition of all or a portion of Our business to another company.
-        </li>
-        <li>
-          <strong>With Affiliates:</strong> We may share Your information with Our affiliates, in
-          which case we will require those affiliates to honor this Privacy Policy. Affiliates
-          include Our parent company and any other subsidiaries, joint venture partners or other
-          companies that We control or that are under common control with Us.
-        </li>
-        <li>
-          <strong>With business partners:</strong> We may share Your information with Our business
-          partners to offer You certain products, services or promotions.
-        </li>
-        <li>
-          <strong>With other users:</strong> when You share personal information or otherwise
-          interact in the public areas with other users, such information may be viewed by all
-          users and may be publicly distributed outside.
-        </li>
-        <li>
-          <strong>With Your consent</strong>: We may disclose Your personal information for any
-          other purpose with Your consent.
-        </li>
-      </ul>
-      <h2 className="heading">Retention of Your Personal Data</h2>
+
+      <h1 className="heading-large">CCPA Privacy Rights (Do Not Sell My Personal Information)</h1>
+
       <p className="paragraph">
-        The Company will retain Your Personal Data only for as long as is necessary for the
-        purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the
-        extent necessary to comply with our legal obligations (for example, if we are required to
-        retain your data to comply with applicable laws), resolve disputes, and enforce our legal
-        agreements and policies.
+        Under the CCPA, among other rights, California consumers have the right to:
       </p>
       <p className="paragraph">
-        The Company will also retain Usage Data for internal analysis purposes. Usage Data is
-        generally retained for a shorter period of time, except when this data is used to
-        strengthen the security or to improve the functionality of Our Service, or We are legally
-        obligated to retain this data for longer time periods.
-      </p>
-      <h2 className="heading">Transfer of Your Personal Data</h2>
-      <p className="paragraph">
-        Your information, including Personal Data, is processed at the Company's operating offices
-        and in any other places where the parties involved in the processing are located. It means
-        that this information may be transferred to — and maintained on — computers located outside
-        of Your state, province, country or other governmental jurisdiction where the data
-        protection laws may differ than those from Your jurisdiction.
+        Request that a business that collects a consumer's personal data disclose the categories
+        and specific pieces of personal data that a business has collected about consumers.
       </p>
       <p className="paragraph">
-        Your consent to this Privacy Policy followed by Your submission of such information
-        represents Your agreement to that transfer.
+        Request that a business delete any personal data about the consumer that a business has
+        collected.
       </p>
       <p className="paragraph">
-        The Company will take all steps reasonably necessary to ensure that Your data is treated
-        securely and in accordance with this Privacy Policy and no transfer of Your Personal Data
-        will take place to an organization or a country unless there are adequate controls in place
-        including the security of Your data and other personal information.
-      </p>
-      <h2 className="heading">Disclosure of Your Personal Data</h2>
-      <h3 className="heading-small">Business Transactions</h3>
-      <p className="paragraph">
-        If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may
-        be transferred.
-      </p>
-      <h3 className="heading-small">Law enforcement</h3>
-      <p className="paragraph">
-        Under certain circumstances, the Company may be required to disclose Your Personal Data if
-        required to do so by law or in response to valid requests by public authorities (e.g. a
-        court or a government agency).
-      </p>
-      <h3 className="heading-small">Other legal requirements</h3>
-      <p className="paragraph">
-        The Company may disclose Your Personal Data in the good faith belief that such action is
-        necessary to:
-      </p>
-      <ul className="paragraph">
-        <li>Comply with a legal obligation</li>
-        <li>Protect and defend the rights or property of the Company</li>
-        <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
-        <li>Protect the personal safety of Users of the Service or the public</li>
-        <li>Protect against legal liability</li>
-      </ul>
-      <h2 className="heading">Security of Your Personal Data</h2>
-      <p className="paragraph">
-        The security of Your Personal Data is important to Us, but remember that no method of
-        transmission over the Internet, or method of electronic storage is 100% secure. While We
-        strive to use commercially acceptable means to protect Your Personal Data, We cannot
-        guarantee its absolute security.
-      </p>
-      <h1 className="heading-large">Children's Privacy</h1>
-      <p className="paragraph">
-        Our Service does not address anyone under the age of 13. We do not knowingly collect
-        personally identifiable information from anyone under the age of 13. If You are a parent or
-        guardian and You are aware that Your child has provided Us with Personal Data, please
-        contact Us. If We become aware that We have collected Personal Data from anyone under the
-        age of 13 without verification of parental consent, We take steps to remove that
-        information from Our servers.
+        Request that a business that sells a consumer's personal data, not sell the consumer's
+        personal data.
       </p>
       <p className="paragraph">
-        If We need to rely on consent as a legal basis for processing Your information and Your
-        country requires consent from a parent, We may require Your parent's consent before We
-        collect and use that information.
+        If you make a request, we have one month to respond to you. If you would like to exercise
+        any of these rights, please contact us.
       </p>
+
+      <h1 className="heading-large">GDPR Data Protection Rights</h1>
+
+      <p className="paragraph">
+        We would like to make sure you are fully aware of all of your data protection rights. Every
+        user is entitled to the following:
+      </p>
+      <p className="paragraph">
+        The right to access – You have the right to request copies of your personal data. We may
+        charge you a small fee for this service.
+      </p>
+      <p className="paragraph">
+        The right to rectification – You have the right to request that we correct any information
+        you believe is inaccurate. You also have the right to request that we complete the
+        information you believe is incomplete.
+      </p>
+      <p className="paragraph">
+        The right to erasure – You have the right to request that we erase your personal data,
+        under certain conditions.
+      </p>
+      <p className="paragraph">
+        The right to restrict processing – You have the right to request that we restrict the
+        processing of your personal data, under certain conditions.
+      </p>
+      <p className="paragraph">
+        The right to object to processing – You have the right to object to our processing of your
+        personal data, under certain conditions.
+      </p>
+      <p className="paragraph">
+        The right to data portability – You have the right to request that we transfer the data
+        that we have collected to another organization, or directly to you, under certain
+        conditions.
+      </p>
+      <p className="paragraph">
+        If you make a request, we have one month to respond to you. If you would like to exercise
+        any of these rights, please contact us.
+      </p>
+
+      <h1 className="heading-large">Children's Information</h1>
+
+      <p className="paragraph">
+        Another part of our priority is adding protection for children while using the internet. We
+        encourage parents and guardians to observe, participate in, and/or monitor and guide their
+        online activity.
+      </p>
+
+      <p className="paragraph">
+        LolAnalystApp does not knowingly collect any Personal Identifiable Information from
+        children under the age of 13. If you think that your child provided this kind of
+        information on our website, we strongly encourage you to contact us immediately and we will
+        do our best efforts to promptly remove such information from our records.
+      </p>
+
       <h1 className="heading-large">Links to Other Websites</h1>
       <p className="paragraph">
-        Our Service may contain links to other websites that are not operated by Us. If You click
+        Our service may contain links to other websites that are not operated by us. If You click
         on a third party link, You will be directed to that third party's site. We strongly advise
-        You to review the Privacy Policy of every site You visit.
+        you to review the privacy policy of every site You visit.
       </p>
       <p className="paragraph">
         We have no control over and assume no responsibility for the content, privacy policies or
@@ -318,8 +245,8 @@ export default function PrivacyPolicy() {
       </p>
       <h1 className="heading-large">Changes to this Privacy Policy</h1>
       <p className="paragraph">
-        We may update Our Privacy Policy from time to time. You are advised to review this Privacy
-        Policy periodically for any changes. Changes to this Privacy Policy are effective when they
+        We may update our privacy policy from time to time. You are advised to review this privacy
+        policy periodically for any changes. Changes to this privacy policy are effective when they
         are posted on this page.
       </p>
       <h1 className="heading-large">Contact Us</h1>
