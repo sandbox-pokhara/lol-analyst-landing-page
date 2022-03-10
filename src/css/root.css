@@ -9,22 +9,24 @@ body {
 }
 
 #root-container-wrapper {
+  display: flex;
+  flex-direction: column;
   background-color: var(--background);
   color: var(--text-primary);
-  overflow: auto;
+  overflow-y: scroll;
+  margin: 0 auto;
   height: 100vh;
 }
 
 .root-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: auto;
+  flex-grow: 1;
+  margin: 0 auto;
   min-width: 108rem;
   width: 108rem;
   max-width: 1080rem;
   padding: 0 1.6rem 0 1.6rem;
-  min-height: 100vh;
 }
 
 .privacy-policy,
