@@ -1,3 +1,17 @@
+:root {
+  /* fonts */
+
+  --font-family: "Inter", sans-serif;
+  --display: normal normal 400 4.8rem / normal var(--font-family);
+  --heading: normal normal bold 2.4rem / normal var(--font-family);
+  --description: normal normal 400 2rem / normal var(--font-family);
+  --body: normal normal bold 1.5rem / normal var(--font-family);
+  --heading-small: normal normal bold 1.8rem / normal var(--font-family);
+  --body-small: normal normal bold 1.2rem / normal var(--font-family);
+  --legal-boilerplate: italic normal normal 0.9rem / normal var(--font-family);
+  --heading-large: normal normal bold 3.4rem / normal var(--font-family);
+}
+
 [data-theme="dark"] {
   /*  colors */
   --title: #0b0c0f;
@@ -17,17 +31,6 @@
   --offline: #ff3131;
   --offline-translucent: #ff3131cc;
   --close: #e9102b;
-
-  /* fonts */
-  --font-family: "Inter", sans-serif;
-  --display: normal normal 400 3rem/3.3rem var(--font-family);
-  --heading: normal normal bold 1.5rem/2rem var(--font-family);
-  --description: normal normal 400 2rem/2.4rem var(--font-family);
-  --body: normal normal bold 1.5rem/1.8rem var(--font-family);
-  --heading-small: normal normal bold 1.8rem/2.2rem var(--font-family);
-  --body-small: normal normal bold 1.2rem/1.5rem var(--font-family);
-  --legal-boilerplate: italic normal normal 0.9rem/1.1rem var(--font-family);
-  --heading-large: normal normal bold 3.4rem/4.1rem var(--font-family);
 }
 
 .background {

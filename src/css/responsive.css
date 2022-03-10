@@ -33,6 +33,11 @@
 }
 
 @media (max-width: 700px) {
+  :root {
+    --heading-large: normal normal bold 3rem / normal var(--font-family);
+    --display: normal normal 400 3.5rem / normal var(--font-family);
+  }
+
   .root-container {
     min-width: 40rem;
     width: 40rem;
@@ -89,6 +94,11 @@
 }
 
 @media (max-width: 500px) {
+  :root {
+    --heading-large: normal normal bold 2.5rem / normal var(--font-family);
+    --display: normal normal 400 3.5rem / normal var(--font-family);
+  }
+
   .root-container {
     min-width: 30rem;
     width: 30rem;
@@ -128,10 +138,5 @@
   .about-us-image {
     width: 30rem;
     height: auto;
-  }
-
-  .our-mission-text {
-    font-size: 2.5rem;
-    line-height: 3rem;
   }
 }
