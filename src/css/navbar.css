@@ -21,5 +21,8 @@
 
 .discord-logo-small {
   height: 3.2rem;
-  width: 2.85rem;
+}
+
+.logo {
+  width: 3.2rem;
 }

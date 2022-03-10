@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="navbar">
       <div className="navbar-item">
         <Link to={"/"}>
-          <img src={process.env.PUBLIC_URL + "/logo.svg"} alt="logo" />
+          <img className="logo" src={process.env.PUBLIC_URL + "/logo.svg"} alt="logo" />
         </Link>
       </div>
       <div className="navbar-item">

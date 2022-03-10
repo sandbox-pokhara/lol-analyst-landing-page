@@ -1,3 +1,12 @@
+/* desktop */
+.feature-info {
+  width: 50%;
+}
+
+.feature-image {
+  width: 50%;
+}
+
 @media (max-width: 1080px) {
   .root-container {
     min-width: 70rem;
@@ -13,17 +22,8 @@
     flex-direction: column-reverse;
   }
 
-  .feature-info {
-    width: 70rem;
-  }
-
   .feature-info > :not(:last-child) {
     margin-bottom: 0.5em;
-  }
-
-  .feature-image {
-    width: 70rem;
-    height: auto;
   }
 
   .about-us-image {
@@ -65,17 +65,8 @@
     flex-direction: column-reverse;
   }
 
-  .feature-info {
-    width: 40rem;
-  }
-
   .feature-info > :not(:last-child) {
     margin-bottom: 0.5em;
-  }
-
-  .feature-image {
-    width: 40rem;
-    height: auto;
   }
 
   .about-us-image {
@@ -122,17 +113,8 @@
     flex-direction: column-reverse;
   }
 
-  .feature-info {
-    width: 30rem;
-  }
-
   .feature-info > :not(:last-child) {
     margin-bottom: 0.5em;
-  }
-
-  .feature-image {
-    width: 30rem;
-    height: auto;
   }
 
   .about-us-image {
