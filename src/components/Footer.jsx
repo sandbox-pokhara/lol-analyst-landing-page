@@ -7,7 +7,7 @@ export default function Footer() {
   const scroll = () => window.scrollTo(0, 0);
 
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer-items">
         <div className="footer-item gray">© 2022 Sandbox Software Pvt. Ltd.</div>
         {footerLinks.map((l, i) => (
@@ -17,6 +17,6 @@ export default function Footer() {
         ))}
       </div>
       <RiotLegalBoilerplate />
-    </div>
+    </footer>
   );
 }

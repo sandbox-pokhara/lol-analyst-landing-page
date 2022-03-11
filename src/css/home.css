@@ -79,11 +79,6 @@
   margin-bottom: 2.4rem;
 }
 
-.feature-title {
-  text-align: left;
-  font: var(--display);
-}
-
 .feature-subtitle {
   text-align: left;
   font: var(--heading-small);

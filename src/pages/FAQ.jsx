@@ -3,7 +3,7 @@ import config from "../json/config.json";
 
 export default function FAQ() {
   return (
-    <div className="faq">
+    <section className="faq">
       <h1 className="heading-large">FAQ</h1>
       <h2 className="heading">What is LolAnalaystApp?</h2>
       <p className="paragraph">
@@ -33,6 +33,6 @@ export default function FAQ() {
         </a>{" "}
         and post it in #feature-request channel.
       </p>
-    </div>
+    </section>
   );
 }

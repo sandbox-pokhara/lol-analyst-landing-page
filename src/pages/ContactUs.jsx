@@ -42,9 +42,9 @@ export default function ContactUs() {
     );
 
   return (
-    <div className="contact-us">
-      <div className="heading-large primary">Contact Us</div>
-      <div className="heading-small">
+    <section className="contact-us">
+      <h1 className="heading-large primary">Contact Us</h1>
+      <div className="heading-small gray">
         Have an inquiry or some feedback for us? Fill out the form below to contact our team.
       </div>
       <form className="contact-us-form" onSubmit={sendEmail}>
@@ -75,6 +75,6 @@ export default function ContactUs() {
         <input type="submit" value={loading ? "Sumbitting..." : "Submit"} disabled={loading} />
         {statusText}
       </form>
-    </div>
+    </section>
   );
 }

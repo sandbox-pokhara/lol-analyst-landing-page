@@ -5,7 +5,7 @@ import config from "../json/config";
 
 export default function Navbar() {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar-item">
         <Link to={"/"}>
           <img className="logo" src={process.env.PUBLIC_URL + "/logo.svg"} alt="logo" />
@@ -20,6 +20,6 @@ export default function Navbar() {
           />
         </a>
       </div>
-    </div>
+    </nav>
   );
 }

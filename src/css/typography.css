@@ -2,10 +2,6 @@
   font: var(--body);
 }
 
-.heading {
-  font: var(--heading);
-}
-
 .description {
   font: var(--description);
   text-align: center;
@@ -13,6 +9,10 @@
 
 .heading-small {
   font: var(--heading-small);
+}
+
+.heading {
+  font: var(--heading);
 }
 
 .heading-large {
@@ -36,6 +36,7 @@
 }
 
 .display {
+  margin: 0;
   font: var(--display);
 }
 

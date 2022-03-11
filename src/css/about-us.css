@@ -21,6 +21,10 @@
   margin-bottom: 1rem;
 }
 
+.our-mission-title {
+  margin: 0;
+}
+
 .our-mission-text {
   text-align: center;
   font: var(--heading-large);
@@ -38,11 +42,6 @@
   align-items: flex-start;
   justify-content: center;
   padding: 10rem 0;
-}
-
-.about-us-heading {
-  font: var(--heading-large);
-  color: var(--primary);
 }
 
 .about-us-text {

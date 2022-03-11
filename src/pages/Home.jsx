@@ -6,18 +6,18 @@ import features from "../json/features";
 export default function Home() {
   return (
     <div className="home">
-      <div className="main-header">
+      <header className="main-header">
         <div className="title-description">
           <div className="main-header-title">
             <img
               src={process.env.PUBLIC_URL + "/logo-title.svg"}
               className="main-header-logo"
-              alt="logo"
+              alt="LolAnalystAppLogo"
             />
             <div className="beta-tag body white">beta</div>
           </div>
           <div className="description gray main-header-subtitle">
-            Your League of Legends companion app for SEA servers
+            Your League of Legends companion app for Garena (SEA) servers
           </div>
         </div>
         <div
@@ -26,23 +26,23 @@ export default function Home() {
         >
           Download {config.latestVersion}
         </div>
-      </div>
+      </header>
 
       <div className="contents">
         {features.map((feature, index) => (
-          <div className={`feature-item ${feature.className}`} key={index}>
+          <section className={`feature-item ${feature.className}`} key={index}>
             <img
               className="feature-image"
-              alt="feature"
+              alt={feature.title}
               src={process.env.PUBLIC_URL + feature.background}
             />
             <div className="feature-info">
-              <div className="feature-title white">{feature.title}</div>
+              <h1 className="display white">{feature.title}</h1>
               <div className="feature-subtitle">{feature.description}</div>
             </div>
-          </div>
+          </section>
         ))}
-        <div className="help-discord">
+        <section className="help-discord">
           <a href={config.discordLink} target="_blank" rel="noreferrer">
             <img src={process.env.PUBLIC_URL + "/discord.svg"} className="discord-logo" alt="" />
           </a>
@@ -52,7 +52,7 @@ export default function Home() {
               discord.
             </a>
           </div>
-        </div>
+        </section>
         <div
           className="download-button white"
           onClick={() => window.open(config.latestVersionLink, "_blank")}
