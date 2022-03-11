@@ -3,5 +3,6 @@
   { "text": "About Us", "to": "/about-us" },
   { "text": "Privacy Policy", "to": "/privacy-policy" },
   { "text": "Terms of Service", "to": "/tos" },
-  { "text": "Contact Us", "to": "/contact-us" }
+  { "text": "Contact Us", "to": "/contact-us" },
+  { "text": "FAQ", "to": "/faq" }
 ]

@@ -21,7 +21,8 @@ body {
 }
 
 .privacy-policy,
-.contact-us {
+.contact-us,
+.faq {
   width: inherit;
   font-family: var(--font-family);
   color: var(--gray);
@@ -29,7 +30,8 @@ body {
 }
 
 .privacy-policy h1,
-.contact-us h1 {
+.contact-us,
+.faq h1 {
   color: var(--primary);
 }
 
