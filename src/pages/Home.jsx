@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/home.css";
 import config from "../json/config";
 import features from "../json/features";
 
 export default function Home() {
+  useEffect(() => {
+    document.title =
+      "LolAnalystApp | Your League of Legends companion app for Garena (SEA) servers";
+  }, []);
   return (
     <div className="home">
       <header className="main-header">

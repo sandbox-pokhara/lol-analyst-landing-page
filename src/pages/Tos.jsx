@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Tos() {
+  useEffect(() => {
+    document.title = "LolAnalystApp | Terms of Service";
+  }, []);
   return (
-    <div className="privacy-policy">
-      <h1 className="heading-large">Terms and Conditions</h1>
+    <div className="tos">
+      <h1 className="heading-large">Terms of Service</h1>
       <p className="paragraph">Last updated: March 09, 2022</p>
       <p className="paragraph">
         Please read these terms and conditions carefully before using Our Service.

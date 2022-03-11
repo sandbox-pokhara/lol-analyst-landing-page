@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function PrivacyPolicy() {
+  useEffect(() => {
+    document.title = "LolAnalystApp | Privacy Policy";
+  }, []);
   return (
     <div className="privacy-policy">
       <h1 className="heading-large">Privacy Policy</h1>

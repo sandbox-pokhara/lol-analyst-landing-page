@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import config from "../json/config.json";
 
 export default function FAQ() {
+  useEffect(() => {
+    document.title = "LolAnalystApp | FAQ";
+  }, []);
   return (
     <section className="faq">
       <h1 className="heading-large">FAQ</h1>

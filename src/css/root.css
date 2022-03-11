@@ -22,6 +22,7 @@ body {
 
 .privacy-policy,
 .contact-us,
+.tos,
 .faq {
   width: inherit;
   font-family: var(--font-family);
@@ -30,7 +31,8 @@ body {
 }
 
 .privacy-policy h1,
-.contact-us,
+.contact-us h1,
+.tos h1,
 .faq h1 {
   color: var(--primary);
 }

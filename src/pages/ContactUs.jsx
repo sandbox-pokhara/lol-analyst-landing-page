@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const url =
   "https://vldewis041.execute-api.us-east-1.amazonaws.com/lol-analyst-app-contact-form/contact-us";
 
 export default function ContactUs() {
+  useEffect(() => {
+    document.title = "LolAnalystApp | Contact Us";
+  }, []);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -44,7 +47,7 @@ export default function ContactUs() {
   return (
     <section className="contact-us">
       <h1 className="heading-large primary">Contact Us</h1>
-      <div className="heading-small gray">
+      <div className="heading-small">
         Have an inquiry or some feedback for us? Fill out the form below to contact our team.
       </div>
       <form className="contact-us-form" onSubmit={sendEmail}>
