@@ -17,7 +17,7 @@ export default function Home() {
             <div className="beta-tag body white">beta</div>
           </div>
           <div className="description gray main-header-subtitle">
-            op.gg alternative designed for south east asian servers
+            Your League of Legends companion app for SEA servers
           </div>
         </div>
         <div
