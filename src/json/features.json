@@ -7,13 +7,13 @@
   },
   {
     "title": "Champ Select Analysis",
-    "description": "Stragetize your picks based on your teammates' champion pool, check your teammates' current and last season's rank and recent match history. We're planning to add win/loss streak detection, profile tags and many more in the future.",
+    "description": "Stragetize your picks based on your teammates’ champion pool, check your teammates’ current and last season’s rank and recent match history. It is an op.gg equivalent to multi-search for garena. We’re planning to add win/loss streak detection, profile tags and many more in the future.",
     "background": "/features/champ.png",
     "className": "feature-item-left"
   },
   {
     "title": "In Game Analysis",
-    "description": "Get more insights during the loading screen and in game using our “in game analysis” tool. ",
+    "description": "Get more insights during the loading screen and in game using our “in game analysis” tool. It is an op.gg equivalent to live game for garena.",
     "background": "/features/game.png",
     "className": "feature-item-right"
   }
